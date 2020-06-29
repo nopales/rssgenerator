@@ -18,7 +18,7 @@ Step one is to set up a google form to collect the data:
   <li>Length (hr:mn:sc) (column J)
   </ul>
   At the end of the row of data paste this code, replacing with your own url of course!
-  Whenever you need to add a new episde, just fill out the form, then click in the lower right corner of the code cell from the previous episode and drag down.  Google sheets will auto poulate with the correct row number for the episode and generate the xml for your episode.  Note, episode 1 will be in row 2 because row 1 contains your column headings.
+  Whenever you need to add a new episde, just fill out the form, then click in the lower right corner of the code cell from the previous episode and drag down.  Google sheets will auto poulate with the correct row number for the episode and generate the xml for your episode.  Note, episode 1 will be in row 2 because row 1 contains your column headings.<br>
   
   =CONCATENATE("<item> <itunes:episodeType>full</itunes:episodeType><itunes:episode>",K3,"</itunes:episode><title>", B2,"</title> <itunes:summary>", C2,"</itunes:summary> <description><content:encoded><![CDATA[", C2, "<br><a href=""https://daniel.jessica-lily.com/index.html"">The Didi Chronicles</a>]]></content:encoded></description> <link>https://daniel.jessica-lily.com/index.html</link> <enclosure url=""https://daniel.jessica-lily.com/episodes/", D2,""" type=""audio/mpeg"" length=""", E2, """></enclosure> <pubDate>", F2, ", ", G2, " ", H2, " ", I2, " ", "12:01:01+0000</pubDate> <itunes:duration>", J2, "</itunes:duration> <itunes:explicit>no</itunes:explicit> <guid>https://daniel.jessica-lily.com/episodes", D2, "</guid> </item>")
   
