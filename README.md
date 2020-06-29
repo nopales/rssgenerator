@@ -5,7 +5,7 @@ I then maually paste these into the RSS feed for my podcast and upload the audio
 Step one is to set up a google form to collect the data:
   The questions could be in any order, but this is how they are set up for my form and spreadsheet.  The column they appear in in my spread sheet is also listed.  If you change which column your data goes to be sure to change it in the code below as well!
 
-  Episode Number (colum K in my sheet)
+  Episode Number (colum K in my sheet)<br>
   Title of Podcast Episode (column B)
   Description (column C)
   exact file name of audio file (column D)
