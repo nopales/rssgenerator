@@ -6,7 +6,7 @@ Step one is to set up a google form to collect the data:
   The questions could be in any order, but this is how they are set up for my form and spreadsheet.  The column they appear in in my spread sheet is also listed.  If you change which column your data goes to be sure to change it in the code below as well!
 
 <ul>
-  <li>Episode Number (colum K in my sheet)<
+  <li>Episode Number (colum K in my sheet)
   <li>Title of Podcast Episode (column B)
   <li>Description (column C)
   <li>exact file name of audio file (column D)
