@@ -5,17 +5,18 @@ I then maually paste these into the RSS feed for my podcast and upload the audio
 Step one is to set up a google form to collect the data:
   The questions could be in any order, but this is how they are set up for my form and spreadsheet.  The column they appear in in my spread sheet is also listed.  If you change which column your data goes to be sure to change it in the code below as well!
 
-  Episode Number (colum K in my sheet)<br>
-  Title of Podcast Episode (column B)
-  Description (column C)
-  exact file name of audio file (column D)
-  length in bytes (column E)
-  Day (3 letter abbreviation, I use radio buttons for this question in the form) (column F)
-  Date (dd) (column G)
-  Month (three letter code) (column H)
-  Year (yyyy) (column I)
-  Length (hr:mn:sc) (column J)
-  
+<ul>
+  <li>Episode Number (colum K in my sheet)<
+  <li>Title of Podcast Episode (column B)
+  <li>Description (column C)
+  <li>exact file name of audio file (column D)
+  <li>length in bytes (column E)
+  <li>Day (3 letter abbreviation, I use radio buttons for this question in the form) (column F)
+  <li>Date (dd) (column G)
+  <li>Month (three letter code) (column H)
+  <li>Year (yyyy) (column I)
+  <li>Length (hr:mn:sc) (column J)
+  </ul>
   At the end of the row of data paste this code, replacing with your own url of course!
   Whenever you need to add a new episde, just fill out the form, then click in the lower right corner of the code cell from the previous episode and drag down.  Google sheets will auto poulate with the correct row number for the episode and generate the xml for your episode.  Note, episode 1 will be in row 2 because row 1 contains your column headings.
   
