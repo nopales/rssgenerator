@@ -16,9 +16,9 @@ The questions could be in any order, but this is how they are set up for my form
   <li>Year (yyyy) (column I)
   <li>Length (hr:mn:sc) (column J)
   </ul>
-  At the end of the row of data paste this code, replacing with your own url of course!
+  In the google sheet where your responsed are recoreded past the following code at the end of the row. (Replace url with your own url of course!)
   
-  Whenever you need to add a new episde, just fill out the form, then click in the lower right corner of the code cell from the previous episode and drag down.  Google sheets will auto poulate with the correct row number for the episode and generate the xml for your episode.  Note, episode 1 will be in row 2 because row 1 contains your column headings.
+  Whenever you need to add a new episde, just fill out the form, then go to your google sheet where the responses are stored.  Click in the lower right corner of the code cell from the previous episode and drag down.  Google sheets will auto poulate with the correct row number for the episode and generate the xml for your episode.  Note, episode 1 will be in row 2 because row 1 contains your column headings.
   
 
 
