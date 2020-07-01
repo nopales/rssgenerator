@@ -1,9 +1,8 @@
 # rssgenerator
-Uses google forms to create the xml for each episode. 
-I then maually paste these into the RSS feed for my podcast and upload the audio file and image to the episodes and images folder (respectively) on the server.
+This is more of a tutorial than a repository.  The idea here is to create a way to easily generate the xml code for new episodes of my podcast.  I do this using a simple google form combined with code in google sheets to generate the xml code. Once generated I maually paste these code blocks into the RSS feed for my podcast and upload the audio file and image to the episodes and images folde (respectively) on the server.
 
 Step one is to set up a google form to collect the data:
-  The questions could be in any order, but this is how they are set up for my form and spreadsheet.  The column they appear in in my spread sheet is also listed.  If you change which column your data goes to be sure to change it in the code below as well!
+The questions could be in any order, but this is how they are set up for my form and spreadsheet.  The column they appear in in my spread sheet is also listed.  If you change which column your data goes to be sure to change it in the code below as well!
 
 <ul>
   <li>Episode Number (colum K in my sheet)
