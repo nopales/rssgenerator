@@ -10,9 +10,9 @@ The questions could be in any order, but this is how they are set up for my form
   <li>Description (column C)
   <li>exact file name of audio file (column D)
   <li>length in bytes (column E)
-  <li>Day (3 letter abbreviation, I use radio buttons for this question in the form) (column F)
+  <li>Day (3 letter abbreviation, (for spotify you need to capitolize the first letter only) I use radio buttons for this question in the form) (column F)
   <li>Date (dd) (column G)
-  <li>Month (three letter code) (column H)
+  <li>Month (three letter code)(for spotify you need to capitolize the first letter only) (column H)
   <li>Year (yyyy) (column I)
   <li>Length (hr:mn:sc) (column J)
   </ul>
@@ -26,5 +26,5 @@ The questions could be in any order, but this is how they are set up for my form
   
 With the above code my output looks like this: 
 
-<item> <itunes:episodeType>full</itunes:episodeType><itunes:episode>1</itunes:episode><title>testrun1</title> <itunes:summary>systems test</itunes:summary> <description><content:encoded><![CDATA[systems test<br><a href="https://daniel.jessica-lily.com/index.html">The Didi Chronicles</a>]]></content:encoded></description> <link>https://daniel.jessica-lily.com/index.html</link> <enclosure url="https://daniel.jessica-lily.com/episodes/testrun1.mp3" type="audio/mpeg" length="1195280"></enclosure> <pubDate>SAT, 08 FEB 2020 12:01:01+0000</pubDate> <itunes:duration>0:0:30</itunes:duration> <itunes:explicit>no</itunes:explicit> <guid>https://daniel.jessica-lily.com/episodestestrun1.mp3</guid> </item>
+<item> <itunes:episodeType>full</itunes:episodeType><itunes:episode>1</itunes:episode><title>testrun1</title> <itunes:summary>systems test</itunes:summary> <description><content:encoded><![CDATA[systems test<br><a href="https://daniel.jessica-lily.com/index.html">The Didi Chronicles</a>]]></content:encoded></description> <link>https://daniel.jessica-lily.com/index.html</link> <enclosure url="https://daniel.jessica-lily.com/episodes/testrun1.mp3" type="audio/mpeg" length="1195280"></enclosure> <pubDate>Sat, 08 Feb 2020 12:01:01+0000</pubDate> <itunes:duration>0:0:30</itunes:duration> <itunes:explicit>no</itunes:explicit> <guid>https://daniel.jessica-lily.com/episodestestrun1.mp3</guid> </item>
   
